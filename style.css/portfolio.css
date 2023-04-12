@@ -82,9 +82,13 @@ main {
     margin: 0 auto;
 }
 
+section {
+    margin-top: 130px;
+
+}
+
 /* about section style */
 .about {
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -94,8 +98,8 @@ main {
 }
 
 .section-titel {
-
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
 
@@ -126,8 +130,73 @@ main {
     font-weight: 700;
     font-size: 20px;
 }
+
 /* <!-- WHAT I DO SECTION --> */
-.what-is-do{
+.what-is-do {
     margin-top: 130px;
 
 }
+
+.skills-container {
+    display: flex;
+    ga: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+
+.skill-title {
+    color: #181818;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-desceription {
+    color: #757575;
+}
+
+/* resume expresion */
+.resume-content{
+    display: flex;
+    gap:24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .tittel {
+    margin-bottom: 10px;
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resume .sub-titel {
+    margin-bottom: 20px;
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+.resume-button{
+margin-top: 50px;
+text-align: center;
+} 
+
+
+
+
+
+ 
